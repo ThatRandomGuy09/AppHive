@@ -23,7 +23,8 @@ async function init() {
   const distFolderContents = fs.readdirSync(distFolderPath, {recursive:true})
 
   for(const filePath of distFolderContents){
-    if(fs.lstatSync(filePath).isDirectory()) continue;
+    if(fs.lstatSync(filePath).isDirectory()) 
+    continue;
     
   }
   })
