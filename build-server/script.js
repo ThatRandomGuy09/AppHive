@@ -24,6 +24,7 @@ async function init() {
 
   for(const filePath of distFolderContents){
     if(fs.lstatSync(filePath).isDirectory()) 
+    
     continue;
     
   }
